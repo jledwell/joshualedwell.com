@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document: styles for portfolio index page */
+
+body.portfolio h1,h2,p { 
+	display: block;
+	margin: 0 0 10px 10px;
+	padding-left: 0;
+}
+.row {
+	overflow:auto;
+}
+
+.thumb { 
+	width: 220px; 
+	margin: 0 10px 10px 10px;
+	float: left;
+}
+.thumb img { 
+	width:200px; 
+	height:133px;
+}
+
+.thumb p { 
+	margin-left: 0px;
+	text-align:left;
+}
+
+/* drop shadow */
+
+.shadow-container {
+	position: relative;
+	left: 3px;
+	top: 3px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+}
+ 
+.shadow-container .shadow2,
+.shadow-container .shadow3,
+.shadow-container .container {
+	position: relative;
+	left: -1px;
+	top: -1px;
+}
+ 
+	.shadow-container .shadow1 {
+		background: #F1F0F1;
+	}
+ 
+	.shadow-container .shadow2 {
+		background: #DBDADB;
+	}
+ 
+	.shadow-container .shadow3 {
+		background: #B8B6B8;
+	}
+ 
+	.shadow-container .container {
+		background: #ffffff;
+		border: 1px solid #666;
+		padding: 10px;
+	}

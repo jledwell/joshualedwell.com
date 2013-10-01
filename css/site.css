@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Custom for joshualedwell.com
+----------------------------------------------------------------------------------------------------*/
+
+body { 
+	background:url(../img/bg_trans_8.png) no-repeat 0 0;
+	font-size: 13px;
+	height:804px;
+	width:975px;
+	position:relative;
+	margin:0 auto;
+}
+
+dt { margin: 0 0 5px 20px; }
+
+dt a { 
+	font-size:16px;
+	font-weight:bold; 
+}
+
+dt em { 
+	color:#666; 
+	font-style: normal;
+}
+
+dd { margin: 0 0 20px 20px; }
+
+a { text-decoration:none; }
+
+#mainImage { 
+	height:320px;
+}
+
+.button { margin:300px 0 0 7px; }
+
+.over, .selected { background-color:#fff; }
+
+/* image 1 (swooshy) styles */
+/* palette: #fff #666 #E4CEF2 #BF5D39 #51371C #260101 #EEADA7 */
+
+body.image1 { 
+	background-color:#51371C;
+	color:#FFF
+;}
+
+.image1 .tagline { color:#FFF; }
+
+.image1 a:link { color:#EEADA7; }
+
+.image1 a:visited { color:#999; }
+
+.image1 a:hover, a:active { color:#E4CEF2; }
+
+.image1 h1, .image1 h2 {
+	color:#fff;
+	/* background-color:#BF5D39; 8*/
+}
+
+.bg1 { 
+	background:url(../photos/swooshy_bg.jpg) 0 0 no-repeat;
+}
+
+.alt { 
+	background:#884a2b; // 50% opacity of header bg color over main bg color
+}
+
+/* image 2 (sunrise) styles */
+/* palette: #fff #999 #f2ba52 #d99a4e #a66641 #733a26 #331918 */
+
+body.image2 { background-color:#F2BA52; }
+
+.image2 .tagline { color:#000; }
+
+.image2 a:link { color:#33c; }
+
+.image2 a:visited { color:#733A26; }
+
+.image2 a:hover, a:active { color:#A63838; }
+
+.image2 h1, .image2 h2 {
+	color:#F2F2F2;
+	/* background-color:#401B2C; */
+}
+
+.bg2 { 
+	background:url(../photos/sunrise_bg.jpg) 0 0 no-repeat;
+}
+
+/* image 3 (pointy) styles */
+/* palette: #fff #999 #f2f2f2 #4f95ec #a63838 #733a26 #401b2c */
+
+body.image3 { 
+	background-color:#401b2c;
+	color:#fff;
+	}
+
+.image3 a:link { color:#4F95EC; }
+
+.image3 a:visited { color:#999; }
+
+.image3 a:hover, a:active { color:#A63838; }
+
+.image3 h1, .image3 h2 {
+	color:#fff;
+	/* background-color:#c2a0d9;  */
+}
+
+.bg3 { 
+	background:url(../photos/pointy_bg.jpg) 0 0 no-repeat;
+}
+
+.header {
+	margin:20px 0 20px 0;
+}
+
+img.teaser { 
+	width: 120px;
+	height: 120px;
+	border: 1px solid;
+	margin: 0 6px 6px 0;
+	float: left;
+}
+
+h3 {
+	font: bold 13px;
+	margin-bottom: 10px;
+}
+
+li { list-style:none; margin:10px 0 0 0; }
+
+#labelOverlay {
+height:143px;
+/* margin-top:-15px; */
+width:609px;
+}
+
+h1 {
+	margin:8px 0 0 0;
+	padding:0 8px 8px 0;
+	/* display:inline; */
+}
+
+h2 {
+	display:inline;
+	position:relative;
+	z-index:100;
+	clear:both;
+	margin: 160px 0 8px 0px;
+	/* padding:0 8px 0 8px; */
+}
+
+.tagline  {
+	font-style: italic;
+	font-size: 14px;
+	margin: 8px 0 8px 0px;
+}
+	
+#photoNav {
+	margin: 0 0 8px 16px;
+}
+
+#photoNav img { margin-right:7px }
+
+#gutter p { margin-left: 8px; }
+
+#gutter h2 { margin-left: 0px; }
