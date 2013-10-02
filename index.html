@@ -1,62 +1,106 @@
 <!DOCTYPE html>
 <html>
 
-<!-- Homepage version 3 -->
-<!-- CSS framework: 960.gs -->
+<!-- Homepage version 4 -->
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Home - Joshua Ledwell - Boston area interaction design and usability</title>
+	<meta charset="utf-8" />
+	<title>Home - Joshua Ledwell - Boston area UX design and usability</title>
 	
-<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
-<script type="text/javascript" src="./js/site.js"></script>
+  <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
+  <script type="text/javascript" src="./js/site.js"></script>
 
-<link rel="stylesheet" type="text/css" media="all" href="./css/reset.css" />
-<link rel="stylesheet" type="text/css" media="all" href="./css/text.css" />
-<link rel="stylesheet" type="text/css" media="all" href="./css/960.css" />
-<link rel="stylesheet" type="text/css" media="all" href="./css/site.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="./css/reset.css" />
+
+  <!--  
+  <link rel="stylesheet" type="text/css" media="all" href="./css/text.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="./css/960.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="./css/site.css" />-->
+
+<script src="http://use.edgefonts.net/bebas-neue.js"></script> 
+
+<style type="text/css">
+
+body {
+  background-color: #8C210B;
+  color: #FFF;
+  background-image: none;
+}
+
+h1 {
+  color: #FDAB47;
+  font: bold 4em bebas-neue, sans-serif;
+  text-transform: uppercase;
+}
+
+/* check out http://tympanus.net/codrops/2013/08/06/creative-link-effects/ */
+
+a { text-decoration: none; }
+a:link { color:#FDAB47; }
+a:visited { color: #C5A57E; }
+a:hover { text-decoration: underline; }
+
+nav ul li {
+  color: #fff;
+  font: 3em 'Arial Black', sans-serif;
+  -webkit-text-stroke: 2px rgba(0, 0, 0, 0.1);
+  -webkit-font-smoothing:antialiased;
+}
+
+nav ul li:before {
+  content: "* "; 
+}
+
+nav ul li:after {
+  content: " *"; 
+}
+
+</style>
+
 
 </head>
 
-<body class="image1">
-<div class="container_12">
-  <div class="grid_12">
-    <div class="header"><h1>Joshua Ledwell</h1>
-    <p class="tagline">Information architecture, interaction design, usability</p></div></div>
-  <div id="mainImage" class="grid_8 bg1">
-    <!-- <span class="tagline"><p>experience design &amp; user research</p></span> -->
-    <!-- jquery image switcher -->
-    <span id="switcher"><img src="img/onbox.png" width="15" height="13" alt="current image" title="current image" id="swooshy" class="button selected"><img src="img/onbox.png" width="15" height="13" alt="next image" title="Next image" class="button" id="yellow"><img src="img/onbox.png" width="15" height="13" alt="next image" title="Next image" class="button" id="pointy"></span></div>
-    <div class="grid_4">
-    	<div id="twitter_div">
-<h2 class="sidebar-title">jledwell on Twitter</h2><hr/>
-<ul id="twitter_update_list"></ul>
-<a href="http://twitter.com/jledwell" id="twitter-link" style="display:block;">follow me on Twitter</a>
-</div>
-    </div></div>       
-<!-- row 2 -->             
-<div class="container_12">
-    <div class="grid_8">
-    	<div class="grid_3 alpha">
-            	<div class="header"><h2>about me</h2><hr/></div>
-    			<p>I live near Boston, MA with my family.</p>
-    			<p>See my personal and nature photos on <a href="http://www.flickr.com/photos/jledwell/">Flickr</a> and <a href="http://www.tabblo.com/studio/person/jledwell/">Tabblo</a>.</p><p>I blog about business and usability at <a href="http://joshualedwell.typepad.com/">Compete on Usability</a>, and I maintain a <a href="http://joshualedwell.posterous.com/">UI Swipe file</a> with good and bad examples to learn from.</p></div>
-    	<div class="grid_5 omega">
-        	<div class="header"><h2>professional</h2><hr/></div>
-  			<p>I make software and web applications easy, productive, and fun to use. I've employed everything from pencil and paper to HTML / CSS, creating functional prototypes, mockups, personas, use cases,  wireframes. In addition, I script, run, and report on usability tests and surveys.</p>
-            <p>I've worked in consulting and permanent roles for companies including Hewlett-Packard, Lycos.com, Salary.com, and Staples.</p>
-  			<!-- <div class="header"><h2>portfolio</h2><hr/></div>
+<body>
+<!-- <body class="image1"> -->
+  <h1>Joshua Ledwell</h1>
+  <p class="tagline">User experience design, user research, usability</p>
+  <!-- jquery image switcher 
+  <div id="mainImage" class="bg1">
+    <span id="switcher"><img src="img/onbox.png" width="15" height="13" alt="current image" title="current image" id="swooshy" class="button selected"><img src="img/onbox.png" width="15" height="13" alt="next image" title="Next image" class="button" id="yellow"><img src="img/onbox.png" width="15" height="13" alt="next image" title="Next image" class="button" id="pointy"></span>
+  </div> -->
+
+  <!-- could include portfolio, blog / things I wrote online, code examples, contact ? -->
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li>Portfolio</li>
+      <li>Contact Me</li>
+    </ul>
+  </nav>
+
+  <header>
+    <h2>about me</h2>
+    <p>I live near Boston, MA with my family.</p>
+    <p>See my personal and nature photos on <a href="http://www.flickr.com/photos/jledwell/">Flickr</a>.</p>
+    <p>I blog about business and usability at <a href="http://joshualedwell.typepad.com/">Compete on Usability</a>.</p>
+    <h2>professional</h2>
+    <p>I make software and web applications easy, productive, and fun to use. I've employed everything from pencil and paper to HTML / CSS, creating functional prototypes, mockups, personas, use cases,  wireframes. In addition, I script, run, and report on usability tests and surveys.</p>
+    <p>I've worked in consulting and permanent roles for companies including Autodesk, Hewlett-Packard, Lycos.com, Salary.com, and Staples.</p>
+    <p>I have experience delivering great user experience design on an Agile team. I am also an Agile product owner.</p>
+  			<!-- <div class="header"><h2>portfolio</h2></div>
       		<p><img src="img/chernoff_thumb_120.png" alt="Chernoff face" class="teaser" />To visualize different dimensions of data display, I used glyphs called Chernoff faces. Each attribute, like ear size or eyebrow angle, can be scanned individually. <a href="http://joshualedwell.typepad.com/usability_blog/files/final_vizualization.pdf">Full visualization</a> (Adobe PDF)</p>
             <br clear="all" />
-            <p><img src="img/myspace_thumb_120.png" alt="MySpace" class="teaser" />User flows and wireframes for printable photo projects on MySpace.</p>-->  </div> </div> 
+            <p><img src="img/myspace_thumb_120.png" alt="MySpace" class="teaser" />User flows and wireframes for printable photo projects on MySpace.</p>-->  
+          </header> 
     
-    <div class="grid_4"><div class="header"><h2>follow me on ...</h2><hr/></div>
+<h2>follow me on ...</h2>
 		<ul>
-   	    <li><a href="http://joshualedwell.facebook.com/">Facebook</a></li>
+   	    <li><a href="http://twitter.com/jledwell">@jledwell on Twitter</a></li>
             <li><a href="http://www.linkedin.com/pub/joshua-ledwell/0/103/879/">LinkedIn</a></li>
-        	<li><a href="http://twitter.com/uxforward">&#64;uxforward</a> on Twitter</li>
+        	<li><a href="http://www.pinterest.com/joshualedwell/">Pinterest</a></li>
+          <li>GitHub</li>
         </ul></div>   
-        <div class="grid_12"><hr /><p>This website copyright (c)2010. <a href="feedback.html">Contact me</a></p></div>
+<p>This website copyright (c)1997-2013 Joshua Ledwell. <a href="feedback.html">Contact me</a></p>
 </div> 
 <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
 <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/jledwell.json?callback=twitterCallback2&amp;count=4"></script>
